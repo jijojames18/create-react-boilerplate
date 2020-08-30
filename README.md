@@ -44,3 +44,7 @@ npm install axios firebase node-sass react-redux react-router-dom redux redux-lo
 * Copy the files in this project to the folder containing the new app code
 * Copy/Rename `.env.example` and `.env` and modify its content with the correct configuration values
 * Run the project
+
+## References
+* [Favicon generator](https://www.favicon-generator.org/) - (Generate the icons needed for PWA)
+* [Firebase](https://firebase.google.com/docs/firestore/quickstart#web)
