@@ -13,15 +13,21 @@ src
 │   ├── root-reducer.js
 │   ├── root-saga.js
 |   ├── store.js
-|   └── <subsection>
-|       ├── <subsection>.reducers.js
-|       ├── <subsection>.sagas.js
-│       └── <subsection>.actions.js
+|   └── item
+|       ├── item.reducers.js
+|       ├── item.sagas.js
+|       ├── item.selectors.js
+|       ├── item.types.js
+│       └── item.actions.js
 ├── components
 │   ├── spinner (Loading spinner)
 │   ├── with-spinner (Loading spinner HOC)
 │   ├── error-boundary (Error boundary - Displays an error image and message)
+|   ├── custom-button
+|   ├── form-input
 |   └── <new_component>
+├── styles
+|   └── common.styles.jsx (Styled base components)
 ├── pages
 |   └── <page>
 ├── App.js
